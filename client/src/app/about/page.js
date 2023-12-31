@@ -1,13 +1,23 @@
-import Image from 'next/image'
+import React from 'react'
+
 import Link from 'next/link'
-export default function Home() {
+
+const about = () => {
   return (
-    <main className="">
+
+
+    <div>
       <div>
       <Link href="/">Home</Link>
       <Link href="/about">About</Link>
       </div>
-      <h1>Main Page</h1>
-    </main>
+      
+      
+      
+      about
+      
+      </div>
   )
 }
+
+export default about
